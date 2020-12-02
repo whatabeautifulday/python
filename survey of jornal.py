@@ -9,6 +9,7 @@ headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML
 #re = requests.get(url, headers=headers) 
 #re.encoding = 'utf8'
 #print(re.text)
+#要搜尋的題目關鍵字&標題
 q = 'signed+domination'
 qq = 'https://scholar.google.com.tw/scholar?start=0&q='+ q +'&hl=zh-TW&as_sdt=0,5'
 url = qq
